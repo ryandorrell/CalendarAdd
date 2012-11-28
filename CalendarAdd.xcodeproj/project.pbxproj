@@ -18,6 +18,8 @@
 		F31D38301665A4A400A58F71 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F31D382F1665A4A400A58F71 /* Default-568h@2x.png */; };
 		F31D38331665A4A400A58F71 /* CalendarAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D38321665A4A400A58F71 /* CalendarAddViewController.m */; };
 		F31D38361665A4A400A58F71 /* CalendarAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31D38341665A4A400A58F71 /* CalendarAddViewController.xib */; };
+		F31D38421665AE9800A58F71 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31D38401665AE9800A58F71 /* EventKit.framework */; };
+		F31D38431665AE9800A58F71 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31D38411665AE9800A58F71 /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		F31D38311665A4A400A58F71 /* CalendarAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarAddViewController.h; sourceTree = "<group>"; };
 		F31D38321665A4A400A58F71 /* CalendarAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarAddViewController.m; sourceTree = "<group>"; };
 		F31D38351665A4A400A58F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalendarAddViewController.xib; sourceTree = "<group>"; };
+		F31D38401665AE9800A58F71 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F31D38411665AE9800A58F71 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31D38421665AE9800A58F71 /* EventKit.framework in Frameworks */,
+				F31D38431665AE9800A58F71 /* EventKitUI.framework in Frameworks */,
 				F31D381A1665A4A400A58F71 /* UIKit.framework in Frameworks */,
 				F31D381C1665A4A400A58F71 /* Foundation.framework in Frameworks */,
 				F31D381E1665A4A400A58F71 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		F31D380A1665A4A400A58F71 = {
 			isa = PBXGroup;
 			children = (
+				F31D38401665AE9800A58F71 /* EventKit.framework */,
+				F31D38411665AE9800A58F71 /* EventKitUI.framework */,
 				F31D381F1665A4A400A58F71 /* CalendarAdd */,
 				F31D38181665A4A400A58F71 /* Frameworks */,
 				F31D38161665A4A400A58F71 /* Products */,
@@ -258,6 +266,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalendarAdd/CalendarAdd-Prefix.pch";
 				INFOPLIST_FILE = "CalendarAdd/CalendarAdd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -269,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalendarAdd/CalendarAdd-Prefix.pch";
 				INFOPLIST_FILE = "CalendarAdd/CalendarAdd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

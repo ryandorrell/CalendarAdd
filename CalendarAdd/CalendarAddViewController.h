@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
+#import <EventKitUI/EventKitUI.h>
 
-@interface CalendarAddViewController : UIViewController
+
+@interface CalendarAddViewController : UIViewController<EKEventEditViewDelegate>
+
+- (IBAction)addCalendarEntry:(id)sender;
+
 
 @end
